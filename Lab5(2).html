@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header-container" data-aos="fade-down" data-aos-duration="800">
+            <div class="logo">&lt;SS /&gt;</div>
+            
+            <nav class="desktop-nav">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#work" class="nav-link">Work</a>
+                <a href="#testimonials" class="nav-link">Testimonials</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                
+                <div class="divider"></div>
+                
+                <button class="theme-toggle" id="theme-toggle-desktop" aria-label="Toggle Theme">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                </button>
+                <a href="#" class="btn-primary">Download CV</a>
+            </nav>
+
+            <button class="hamburger-btn" id="hamburger-btn" aria-label="Open Menu">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+            </button>
+        </div>
+    </header>
+
+    <div class="mobile-menu-overlay" id="mobile-menu">
+        <div class="mobile-menu-content">
+            <div class="mobile-menu-header">
+                <div class="logo">&lt;SS /&gt;</div>
+                <button class="close-btn" id="close-btn" aria-label="Close Menu">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                </button>
+            </div>
+            
+            <nav class="mobile-nav">
+                <a href="#about" class="mobile-nav-link">About</a>
+                <a href="#work" class="mobile-nav-link">Work</a>
+                <a href="#testimonials" class="mobile-nav-link">Testimonials</a>
+                <a href="#contact" class="mobile-nav-link">Contact</a>
+            </nav>
+
+            <div class="mobile-menu-footer">
+                <div class="theme-switch-wrapper">
+                    <span>Switch Theme</span>
+                    <button class="theme-toggle" id="theme-toggle-mobile" aria-label="Toggle Theme">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                    </button>
+                </div>
+                <a href="#" class="btn-primary mobile-btn">Download CV</a>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <section id="home" class="hero section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title" data-aos="fade-up" data-aos-delay="100">Hi, I'm Yevheniy <span class="wave">👋</span></h1>
+                    <p class="hero-description" data-aos="fade-up" data-aos-delay="200">
+                        Я фронт-енд розробник, основний стек — React. Роблю сайти та веб-додатки так, щоб вони були швидкі, зручні і нормально виглядали на будь-якому пристрої. Моє головне завдання — створювати інтерфейси, які не тільки працюють, а й приємні у використанні. Моя найкраща навичка - це вмінння ідеально відтворювати макети, тому що я завжди переконуюсь, що все виглядає саме так, як задумано дизайнером. <br>Крім фронт-енду, маю досвід із C# — писав програми на ньому, тому добре розумію логіку роботи додатків не тільки зі сторони інтерфейсу. Також працюю з Python, використовуючи його для різних невеликих проєктів. <br> Окремо маю досвід у дизайні: працюю з Photoshop, Illustrator і Figma, тому можу не тільки зверстати макет, а й сам його зробити або допрацювати. Тож я досить гнучка особистість в плані проєктування. <br> В цілому люблю розробку і постійно практикуюсь — випробовую нові підходи, інструменти і намагаюсь робити кожен проєкт трохи кращим, ніж попередній.
+                    </p>
+                    
+                    <div class="hero-info" data-aos="fade-up" data-aos-delay="300">
+                        <div class="info-item">
+                            <img src="Icon.png" alt="Location icon" class="icon-placeholder">
+                            <span>Ужгород, Україна</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="status-dot"></span>
+                            <span>Відкритий для нових ідей та проєктів</span>
+                        </div>
+                    </div>
+
+                    <div class="hero-socials" data-aos="fade-up" data-aos-delay="400">
+                        <a href="https://github.com/trmp3058mp-creator" class="social-link"><img src="Icon Button1.png" alt="GitHub" class="icon-placeholder"></a>
+                        <a href="https://www.instagram.com/trmp3058mp/" class="social-link"><img src="Instagram.png" alt="Instagram" class="icon-placeholder"></a>
+                        <a href="https://www.figma.com/@sayamaro" class="social-link"><img src="Icon Button.png" alt="Figma" class="icon-placeholder"></a>
+                    </div>
+                </div>
+
+                <div class="hero-image-wrapper" data-aos="fade-left" data-aos-delay="300">
+                    <div class="image-box">
+                        <img src="Profile.png" alt="My Profile" class="profile-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="about section bg-secondary">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="badge">About me</span>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-image-wrapper" data-aos="fade-right" data-aos-delay="100">
+                        <div class="about-image-box">
+                            <img src="Me.jpg" alt="About Ме" class="profile-image">
+                        </div>
+                    </div>
+
+                    <div class="about-content" data-aos="fade-left" data-aos-delay="200">
+                        <h2 class="about-heading">Цікавитесь мною? Ось трохи про мене:</h2>
+
+                        <p>Я фронт-енд розробник, якому реально подобається те, що він робить. Основний фокус — створення веб-додатків на React, де важливо не тільки щоб усе працювало, а й щоб виглядало адекватно і було зручно для користувача.</p>
+
+                        <p>Мені цікаво поєднувати технічну частину з візуальною — щоб інтерфейс був не просто функціональним, а й приємним. Звертаю увагу на деталі, читаємість коду і продуктивність, бо вважаю, що це база нормального продукту.</p>
+
+                        <p>Почав свій шлях у розробці кілька років тому і з того часу постійно пробую нове, вчуся і беруся за різні задачі. Зараз працюю з сучасним стеком і намагаюсь робити проєкти, які виглядають і працюють на рівні.</p>
+
+                        <p>Окрім фронтенду, маю досвід з C# — писав програми і трохи глибше розібрався в логіці додатків. Також використовую Python для різних задач. Це допомагає не мислити тільки «версткою», а бачити картину ширше.</p>
+
+                        <p>Плюс маю досвід у дизайні: працюю з Figma, Photoshop і Illustrator. Можу як реалізувати готовий макет, так і сам щось спроєктувати або підправити. Завдяки цьому краще розумію, як зробити інтерфейс не тільки робочим, а й нормальним на вигляд.</p>
+                        
+                        <p>І нарешті, ось тут є деякі методи, як можна зі мною зв'язатися через <a href="https://www.instagram.com/trmp3058mp/" class="text-link">Інстаграм</a> чи <a href="#" class="text-link">GitHub</a>.</p>
+
+                        <p>Мої сильні сторони.</p>
+
+                        <ul class="about-list">
+                            <li>Логіка вміння будувати та організовувати важкі структури, знаходячи порядок в хаосі, та їх креативно відтворювати</li>
+                            <li>Адаптивність, швидке засвоєння нової інформації</li>
+                            <li>Вміння працювати в команді та проявляти ініціативу</li>
+                            <li>Маю значний досвід в різних сферах програмування</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="work" class="work section">
+            <div class="container">
+                <!-- Заголовок секції -->
+                <div class="section-header" data-aos="fade-up">
+                    <span class="badge">Work</span>
+                </div>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+                    Some of the noteworthy projects I have built:
+                </p>
+
+                <div class="projects-wrapper">
+
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="project-image-box">
+                            <img src="Project.png" alt="Project 1" class="project-img">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Business Project</h3>
+                            <p class="project-desc">
+                                Сучасний сайт для представлення компанії та її послуг. Адаптивний дизайн, зручна навігація та акцент на швидкість і зрозумілий інтерфейс для користувача.
+                            </p>
+                            <div class="tech-stack">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">Next.js</span>
+                                <span class="tech-tag">Typescript</span>
+                                <span class="tech-tag">Nest.js</span>
+                                <span class="tech-tag">Figma</span>
+                                <span class="tech-tag">Git</span>
+                                <span class="tech-tag">React</span>
+                            </div>
+                            <a href="#" class="project-link" aria-label="Open project">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project-card reverse" data-aos="fade-up" data-aos-delay="300">
+                        <div class="project-image-box">
+                            <img src="Business_Project.png" alt="Project 2" class="project-img">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Advertisement Site of Company</h3>
+                            <p class="project-desc">
+                                Лендінг, орієнтований на залучення клієнтів. Продумана структура, чіткі заклики до дії та візуальна подача, яка допомагає ефективно презентувати продукт або послугу.
+                            </p>
+                            <div class="tech-stack">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">Next.js</span>
+                                <span class="tech-tag">Typescript</span>
+                                <span class="tech-tag">Nest.js</span>
+                                <span class="tech-tag">Figma</span>
+                                <span class="tech-tag">Git</span>
+                            </div>
+                            <a href="#" class="project-link" aria-label="Open project">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="project-image-box">
+                            <img src="Mobile_App.png" alt="Project 3" class="project-img">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Basic Calculator App</h3>
+                            <p class="project-desc">
+                               Універсальний калькулятор, який працює як у браузері, так і на різних пристроях. Простий та зрозумілий інтерфейс, швидка робота та адаптація під мобільні й десктопні екрани. Приємний дизайн та круті фішки, які роблять його не просто інструментом, а й приємним у використанні повноцінним додатком.
+                            </p>
+                            <div class="tech-stack">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">Next.js</span>
+                                <span class="tech-tag">Typescript</span>
+                                <span class="tech-tag">Nest.js</span>
+                                <span class="tech-tag">Figma</span>
+                                <span class="tech-tag">Git</span>
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">C#</span>
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Windows</span>
+                                <span class="tech-tag">Android</span>
+                                <span class="tech-tag">IOS</span>
+                                <span class="tech-tag">Web-App</span>
+                            </div>
+                            <a href="#" class="project-link" aria-label="Open project">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project-card reverse" data-aos="fade-up" data-aos-delay="300">
+                        <div class="project-image-box">
+                            <img src="Posters.jpg" alt="Project 4" class="project-img">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Web Addvertisement Interractive Posters</h3>
+                            <p class="project-desc">
+                                Динамічні постери з інтерактивними елементами та текстом. Реалізовано можливість взаємодії з користувачем, що робить рекламу більш живою та привертає увагу.
+                            </p>
+                            <div class="tech-stack">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">Next.js</span>
+                                <span class="tech-tag">Addobe Photoshop</span>
+                                <span class="tech-tag">Figma</span>
+                                <span class="tech-tag">Git</span>
+                            </div>
+                            <a href="#" class="project-link" aria-label="Open project">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials section bg-secondary">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="badge">Reviews</span>
+                </div>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+                    Nice things people have said about me:
+                </p>
+
+                <div class="testimonials-grid">
+
+                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="testimonial-avatar">
+                            <img src="icon-avatar.png" alt="John Doe" class="avatar-img">
+                        </div>
+                        <p class="testimonial-quote">
+We approached him to redesign our company website, since the previous one felt outdated and wasn’t performing well. From the beginning, communication was clear — we understood the structure, timeline, and what to expect.
+
+What we really appreciated was the flexibility. We made a few changes during the process, especially around layout and content, and everything was handled without any issues. He explained technical things in a way that was easy to understand, which helped a lot.
+
+The final result is a clean, modern website that loads fast and works well across devices, especially mobile. Since launching, we’ve noticed that users spend more time on the site and navigation feels much smoother.
+
+Overall, a solid experience. Reliable, easy to work with, and delivers what’s promised.                        </p>
+                        <div class="testimonial-author">
+                            <h4>John Doe</h4>
+                            <p>Founder - xyz.com</p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="testimonial-avatar">
+                            <img src="icon-avatar.png" alt="John Doe" class="avatar-img">
+                        </div>
+                        <p class="testimonial-quote">
+We needed a landing page for marketing campaigns that would actually convert, not just look good. We’ve worked with others before, so we were a bit cautious going into this.
+
+During the process, it wasn’t just about development — there was also input on structure, content placement, and user flow, which made a big difference. We adjusted texts and a few sections along the way, and everything was handled quickly.
+
+After launch, the page felt more focused and clear. It performs better than our previous attempts, and we started getting more consistent inquiries.
+
+It’s not magic, of course, but definitely a noticeable improvement. Happy with the outcome and the collaboration.                        </p>
+                        <div class="testimonial-author">
+                            <h4>John Doe</h4>
+                            <p>Founder - abc.com</p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="testimonial-avatar">
+                            <img src="icon-avatar.png" alt="John Doe" class="avatar-img">
+                        </div>
+                        <p class="testimonial-quote">
+Our goal was to build a calculator that works smoothly on both desktop and mobile, with a clean and simple interface.
+
+During development, there were a few moments where we needed to refine the calculation logic, and everything was discussed and adjusted without delays. It didn’t feel like just “following instructions” — there was actual involvement in understanding the problem.
+
+The final result is a reliable and easy-to-use tool. We tested it across multiple devices, and it works consistently everywhere.
+
+It does exactly what we needed, and we’ve been using it daily since.                        </p>
+                        <div class="testimonial-author">
+                            <h4>John Doe</h4>
+                            <p>Freelancer</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact section">
+            <div class="container contact-container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="badge">Способи зв'язку зі мною</span>
+                </div>
+                <p class="section-subtitle contact-subtitle" data-aos="fade-up" data-aos-delay="100">
+                    Що далі? Вільно зв'язуйтесь зі мною якщо вам потрібно:<br>
+                    веб-розробника в команду, втілити в життя якусь програму, ідею, дизайн або проєкт, чи якщо просто ,f;f'nt зв'язатись.
+                </p>
+
+                <div class="contact-methods" data-aos="fade-up" data-aos-delay="200">
+
+                    <div class="contact-item">
+                        <img src="Icon1.png" alt="Email" class="icon-placeholder contact-icon">
+                        <h2 class="contact-text">plyskayev@gmail.com</h2>
+                        <button class="copy-btn" aria-label="Copy Email">
+                            <img src="Icon2.png" alt="Copy" class="icon-placeholder copy-icon">
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="contact-platforms" data-aos="fade-up" data-aos-delay="300">
+                    <p>Шукайте мене за моїми соцмережами!</p>
+                    <div class="hero-socials center-socials">
+                        <a href="https://github.com/trmp3058mp-creator" class="social-link"><img src="Icon Button1.png" alt="GitHub" class="icon-placeholder"></a>
+                        <a href="https://www.instagram.com/trmp3058mp/" class="social-link"><img src="Instagram.png" alt="Instagram" class="icon-placeholder"></a>
+                        <a href="https://www.figma.com/@sayamaro" class="social-link"><img src="Icon Button.png" alt="Figma" class="icon-placeholder"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer bg-secondary">
+            <div class="container">
+                <p class="footer-text">
+                    © 2026 | Designed and coded with ❤️ by Plyska Yevheniy
+                </p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
